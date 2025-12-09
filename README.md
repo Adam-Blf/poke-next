@@ -4,6 +4,15 @@
 
 ![Dernier commit](https://img.shields.io/github/last-commit/Adam-Blf/poke-next?style=flat&logo=git&logoColor=white&color=0080ff&label=Dernier%20commit) ![Langage principal](https://img.shields.io/github/languages/top/Adam-Blf/poke-next?style=flat&logo=git&logoColor=white&color=0080ff&label=Langage%20principal) ![Nombre de langages](https://img.shields.io/github/languages/count/Adam-Blf/poke-next?style=flat&logo=git&logoColor=white&color=0080ff&label=Nombre%20de%20langages)
 
+## 📝 Description
+Application Pokédex/Pokémon construite avec Next.js.
+
+## ⚡ Fonctionnalités
+- Next.js Framework
+- API Pokémon
+- Interface React
+
+
 ### Construit avec les outils et technologies : 
 
 
