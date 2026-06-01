@@ -13,6 +13,25 @@
 
 Pokedex construit avec Next.js · exploration, recherche et stats des Pokemon via PokeAPI.
 
+## Architecture
+
+```mermaid
+flowchart TB
+    POKEAPI["PokeAPI<br/>pokeapi.co/api/v2"]
+    API["lib/api.ts<br/>fetch · liste · espece · evolution · type"]
+    LIB["lib/pokemon.ts · lib/utils.ts<br/>mapping · helpers"]
+    LIST["app/page.tsx<br/>liste · recherche · pagination"]
+    DETAIL["app/pokemon/[id]/page.tsx<br/>fiche detaillee"]
+    CARD["components/PokemonCard.tsx<br/>vignette"]
+    CHART["components/StatChart.tsx<br/>stats recharts"]
+
+    POKEAPI --> API --> LIB
+    LIB --> LIST
+    LIB --> DETAIL
+    LIST --> CARD
+    DETAIL --> CHART
+```
+
 ---
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adambeloucif/) ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Adam-Blf.poke-next)
