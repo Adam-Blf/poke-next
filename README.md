@@ -11,16 +11,16 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
 
-Pokedex construit avec Next.js · exploration, recherche et stats des Pokemon via PokeAPI.
+Pokedex construit avec Next.js - exploration, recherche et stats des Pokemon via PokeAPI.
 
 ## Architecture
 
 ```mermaid
 flowchart TB
     POKEAPI["PokeAPI<br/>pokeapi.co/api/v2"]
-    API["lib/api.ts<br/>fetch · liste · espece · evolution · type"]
-    LIB["lib/pokemon.ts · lib/utils.ts<br/>mapping · helpers"]
-    LIST["app/page.tsx<br/>liste · recherche · pagination"]
+    API["lib/api.ts<br/>fetch - liste - espece - evolution - type"]
+    LIB["lib/pokemon.ts - lib/utils.ts<br/>mapping - helpers"]
+    LIST["app/page.tsx<br/>liste - recherche - pagination"]
     DETAIL["app/pokemon/[id]/page.tsx<br/>fiche detaillee"]
     CARD["components/PokemonCard.tsx<br/>vignette"]
     CHART["components/StatChart.tsx<br/>stats recharts"]
@@ -94,7 +94,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ---
 
 <p align="center">
-  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> · Data Engineer & Fullstack Developer · <a href="https://github.com/Adam-Blf">GitHub</a></sub>
+  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> - Data Engineer & Fullstack Developer - <a href="https://github.com/Adam-Blf">GitHub</a></sub>
 </p>
 
 
